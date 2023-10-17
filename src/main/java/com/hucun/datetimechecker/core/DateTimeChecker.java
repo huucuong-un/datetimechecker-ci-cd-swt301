@@ -22,7 +22,7 @@ public class DateTimeChecker {
             int year = Integer.parseInt(yearString);
             if (year < 1000 || year > 3000) return 0;
             if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
-                return 31;
+                return 35;
             if (month == 4 || month == 6 || month == 9 || month == 11) return 30;
             if (month != 2) return 0;
             if (year % 400 == 0) return 29;
