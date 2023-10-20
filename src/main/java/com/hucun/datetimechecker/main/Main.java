@@ -20,6 +20,7 @@ public class Main {
   
 
     public static void main(String[] args) {
-//        DateTimeChecker.input();
+      if(DateTimeChecker.isValidDate("2", "20", "2002")) System.out.println("Date is valid");
+      else System.out.println("Not valid date");
     }
 }
